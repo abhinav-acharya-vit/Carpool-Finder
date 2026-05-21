@@ -1,49 +1,107 @@
 # 🚗 Carpool Finder
 
-![Carpool Banner](https://via.placeholder.com/1200x300?text=Carpool+Finder)
+A Flask-based web application that helps users find and offer carpool rides. Built during a hackathon to make ride sharing easier, cheaper, and more convenient for students and commuters.
 
-[![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/flask-2.3.6-orange)](https://flask.palletsprojects.com/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/<your-username>/carpool-finder)](https://github.com/<your-username>/carpool-finder/issues)
-[![GitHub forks](https://img.shields.io/github/forks/<your-username>/carpool-finder)](https://github.com/<your-username>/carpool-finder/network)
+## ✨ Features
 
-A modern web app to **find and offer carpool rides**. Users can post rides, view available rides, and connect with drivers quickly. Built with **Flask**, **SQLite**, and **JavaScript** with a responsive UI.
-
----
-
-## 🔹 Live Demo
-
-Check out the live app here:  
-[**Carpool Finder Live Demo**](https://carpool-finder.onrender.com)
-
----
-
-
-
-## 🔹 Features
-
-- Add your ride with **source, destination, time, seats, and cost**.
-- Browse available rides and **contact drivers**.
-- **Responsive design** works on mobile & desktop.
-- Lightweight **SQLite database** to store rides.
-- Smooth **animations and transitions** for a modern feel.
-
----
+- Create and publish ride offers
+- Search available rides by source and destination
+- View ride details including time, seats, and cost
+- Simple and responsive user interface
+- SQLite database for ride storage
+- Fast and lightweight Flask backend
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Python 3, Flask  
-- **Database:** SQLite  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Deployment:** Render / Heroku (any Flask-compatible server)
+### Backend
+- Python
+- Flask
+- SQLite
 
----
+### Frontend
+- HTML
+- CSS
+- JavaScript
 
-## 📦 Installation & Setup
+## 📂 Project Structure
 
-1. Clone the repo:
+```text
+Carpool-Finder/
+│
+├── app.py
+├── rides.db
+├── requirements.txt
+├── README.md
+│
+└── templates/
+    └── index.html
+```
+
+## 🚀 Installation
+
+Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/carpool-finder.git
-cd carpool-finder
+git clone https://github.com/abhinav-acharya-vit/Carpool-Finder.git
+cd Carpool-Finder
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate the environment:
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python app.py
+```
+
+Open your browser and visit:
+
+```text
+http://127.0.0.1:5000
+```
+
+## 🎯 Use Case
+
+Carpool Finder allows users to:
+
+1. Offer rides to other commuters.
+2. Find available rides quickly.
+3. Reduce travel costs.
+4. Encourage shared transportation and reduce traffic congestion.
+
+
+## 👨‍💻 My Contribution
+
+Developed a contingency backend implementation to mitigate delivery risk, ensured frontend–backend compatibility, and resolved integration issues and bugs during development.
+
+## 🏆 Project Background
+
+This project was developed as part of a hackathon team project focused on solving transportation and ride-sharing challenges through a simple web-based solution.
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
