@@ -78,12 +78,6 @@ Run the application:
 python app.py
 ```
 
-Open your browser and visit:
-
-```text
-http://127.0.0.1:5000
-```
-
 ## 🎯 Use Case
 
 Carpool Finder allows users to:
